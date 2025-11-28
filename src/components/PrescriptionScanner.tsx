@@ -125,8 +125,8 @@ export function PrescriptionScanner() {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h2 className="text-slate-900 mb-1">처방전 스캔</h2>
-        <p className="text-slate-600 text-sm">처방전 사진을 찍거나 업로드하여 약 정보를 자동으로 입력하세요</p>
+        <h2 className="text-slate-900 mb-1">약봉투 스캔</h2>
+        <p className="text-slate-600 text-sm">약봉투 사진을 찍거나 업로드하여 약 정보를 자동으로 입력하세요</p>
       </div>
 
       {!scannedImage ? (
@@ -141,7 +141,7 @@ export function PrescriptionScanner() {
                   </div>
                   <div className="text-center">
                     <h3 className="text-slate-900 mb-2">사진 촬영</h3>
-                    <p className="text-slate-600 text-sm">카메라로 처방전 촬영하기</p>
+                    <p className="text-slate-600 text-sm">카메라로 약봉투 촬영하기</p>
                   </div>
                 </div>
                 <input
@@ -183,7 +183,7 @@ export function PrescriptionScanner() {
             <ul className="space-y-2 text-slate-700 text-sm leading-relaxed">
               <li className="flex items-start gap-2">
                 <span className="size-6 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs">1</span>
-                <span>처방전을 평평한 곳에 놓고 촬영하세요</span>
+                <span>약봉투를 평평한 곳에 놓고 촬영하세요</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="size-6 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs">2</span>
@@ -191,7 +191,7 @@ export function PrescriptionScanner() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="size-6 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs">3</span>
-                <span>처방전 전체가 화면에 들어오도록 촬영하세요</span>
+                <span>약봉투 전체가 화면에 들어오도록 촬영하세요</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="size-6 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs">4</span>
@@ -205,7 +205,7 @@ export function PrescriptionScanner() {
           {/* Scanned Image Preview */}
           <Card className="p-5">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-slate-900">스캔한 처방전</h3>
+              <h3 className="text-slate-900">스캔한 약봉투</h3>
               <Button variant="ghost" size="sm" onClick={handleReset}>
                 <X className="size-5" />
               </Button>
@@ -225,7 +225,7 @@ export function PrescriptionScanner() {
               <div className="flex flex-col items-center gap-4">
                 <div className="size-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
                 <div className="text-center">
-                  <h3 className="text-slate-900 mb-2">처방전 분석 중...</h3>
+                  <h3 className="text-slate-900 mb-2">약봉투 분석 중...</h3>
                   <p className="text-slate-600 text-sm">약 정보를 읽어오고 있습니다</p>
                 </div>
               </div>
@@ -261,7 +261,7 @@ export function PrescriptionScanner() {
                   <CheckCircle2 className="size-6 text-green-600 flex-shrink-0" />
                   <div>
                     <h3 className="text-slate-900">스캔 완료!</h3>
-                    <p className="text-slate-700 text-sm">처방전 정보를 확인하고 수정하세요</p>
+                    <p className="text-slate-700 text-sm">약봉투 정보를 확인하고 수정하세요</p>
                   </div>
                 </div>
               </Card>
