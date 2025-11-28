@@ -62,7 +62,7 @@ export function Dashboard({ onNavigate }: DashboardProps) {
               <Camera className="size-5 text-emerald-600" />
             </div>
             <div className="text-center">
-              <div className="text-slate-800 font-medium text-sm">처방전 스캔</div>
+              <div className="text-slate-800 font-medium text-sm">약봉투 스캔</div>
               <div className="text-slate-500 text-xs mt-0.5">약 정보 자동 입력</div>
             </div>
           </div>

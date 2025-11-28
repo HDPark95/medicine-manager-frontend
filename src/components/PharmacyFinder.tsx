@@ -222,7 +222,7 @@ export function PharmacyFinder() {
           <div className="min-w-0">
             <h3 className="text-slate-900 mb-2">약국 이용 팁</h3>
             <ul className="space-y-1 text-slate-700 text-sm leading-relaxed">
-              <li>• 처방전 조제는 가까운 어느 약국에서나 가능합니다</li>
+              <li>• 약봉투 조제는 가까운 어느 약국에서나 가능합니다</li>
               <li>• 24시간 약국은 응급 상황에 유용합니다</li>
               <li>• 약 복용 방법이 궁금하면 약사에게 문의하세요</li>
               <li>• 일요일이나 공휴일에는 당직 약국을 이용하세요</li>

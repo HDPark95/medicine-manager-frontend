@@ -98,7 +98,7 @@ export default function App() {
               }`}
             >
               <Camera className={`size-5 ${activeTab === 'scanner' ? 'stroke-[2.5]' : ''}`} />
-              <span className="text-[10px] font-medium">처방전</span>
+              <span className="text-[10px] font-medium">약봉투</span>
             </button>
             <button
               onClick={() => setActiveTab('guardians')}

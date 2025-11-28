@@ -229,7 +229,7 @@ export function MedicineList() {
           </div>
           <h3 className="text-slate-900 mb-2">등록된 약이 없습니다</h3>
           <p className="text-slate-600 text-sm mb-6">
-            처방전을 스캔하거나 직접 약을 추가해보세요
+            약봉투를 스캔하거나 직접 약을 추가해보세요
           </p>
           <Button size="lg" onClick={() => setIsDialogOpen(true)}>
             <Plus className="size-5 mr-2" />
